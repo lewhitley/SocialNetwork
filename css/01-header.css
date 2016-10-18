@@ -1,0 +1,68 @@
+/* PHASE 1: Header */
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  background-color: #eee;
+}
+
+header {
+  background-color: #f00;
+  color: #fff;
+  display: block;
+  border-bottom: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  z-index: 1;
+  position: relative;
+}
+
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  position: relative;
+  cursor: pointer;
+}
+
+nav > ul:last-child{
+  border-right: 1px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+header li {
+  padding: 10px 20px;
+  border-left: 1px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+header li:hover{
+  background-color: #000;
+}
+
+.header-logo {
+  padding: 10px 20px;
+  border-right: 1px;
+  border-left: 1px;
+  border-color: #fff;
+  border-style: solid;
+  font-weight: 700;
+}
+
+.header-logo:hover{
+  background-color: #000;
+}
+
+nav {
+  margin: 0 auto;
+  width: 902px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
