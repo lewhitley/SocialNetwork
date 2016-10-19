@@ -18,6 +18,13 @@ header {
   position: relative;
 }
 
+nav {
+  margin: 0 auto;
+  width: 902px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
 
 nav > ul {
   display: flex;
@@ -57,12 +64,4 @@ header li:hover{
 
 .header-logo:hover{
   background-color: #000;
-}
-
-nav {
-  margin: 0 auto;
-  width: 902px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
 }
